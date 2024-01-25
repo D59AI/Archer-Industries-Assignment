@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    background-color: #629afc;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: #65371c;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c7dac9;
+  }
+  body {
+    #content {
+        padding: 20px;
+        margin: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(236, 237, 150, 0.775);
+        height: 500px;
+      }
+      
+      #content h1 {
+        color: #007bff;
+      }
+      
+      #content p {
+        line-height: 1.6;
+      }
+      
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    height: 125px;
+    background-color: #629afc;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contact-panel {
+    width: 450px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #e5e9d5f1;
+    padding: 50px;
+    display: none;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(232, 211, 211, 0.905);
+    opacity: 50px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

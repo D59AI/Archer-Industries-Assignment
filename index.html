@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archer Industries</title>
+  <link rel="icon" href="Archer Ind Logo.png" width="10px" height="10px" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Bootstrap CSS and JS here -->
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1><img src="Archer Ind Logo.png" alt="Archer Industries Logo" height="50px" width="50px">    ARCHER INDUSTRIES</h1>
+  </header>
+
+   <!-- Navigation Bar -->
+   <nav>
+    <ul>
+      <li><a href="#" onclick="loadPage('home.html')">Home</a></li>
+      <li><a href="#" onclick="loadPage('about.html')">About Us</a></li>
+      <li><a href="#" onclick="loadPage('products.html')">Products</a></li>
+      <li><a href="#" onclick="loadPage('careers.html')">Careers</a></li>
+      <li><a href="#" onclick="openContactPanel()">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Body Content -->
+  <div id="content">
+    <h1>Welcome to ARCHER INDUSTRIES!</h1><br>
+    <h4>We are a reputed Pharmaceutical Company based in Washington, USA, dedicated to providing high-quality medicines to improve health and well-being.</h4>
+    <p>Explore our website to learn more about our company and the products we offer.</p>
+    <!-- This is where the content for each page will be loaded -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Email: info@archerindustries.com</p>
+    <p>Copyright &copy; Archer Industries</p>
+  </footer>
+
+  <!-- Contact Panel -->
+  <div id="contactPanel" class="contact-panel">
+    <span class="close-btn" onclick="closeContactPanel()">&times;</span>
+    <p>Email: info@archerindustries.com</p>
+    <p>Phone: +1 123 456 7890</p>
+    <p>Address: 123 Main St, Cityville, Pharma Street, Washington, USA</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
